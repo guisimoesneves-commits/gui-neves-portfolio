@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chargebacks on Walmart Seller Center</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="top-nav">
+      <div class="container nav-inner">
+        <a class="brand" href="./index.html">Guilherme Neves</a>
+        <nav class="nav-links">
+          <a class="active" href="./portfolio.html">Portfolio</a>
+          <a href="./index.html">About/CV</a>
+          <a href="mailto:gui.simoes.neves@gmail.com">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="case-page">
+      <div class="case-back-bar">
+        <div class="container">
+          <a class="case-back-link" href="./portfolio.html"><span aria-hidden="true">&#8592;</span><span>Back</span></a>
+        </div>
+      </div>
+
+      <div class="case-stack">
+        <section class="case-hero container">
+          <div class="case-hero-top">
+            <h1>Chargebacks on Walmart Seller Center</h1>
+            <div class="case-hero-meta">
+              <div>
+                <strong>Role</strong>
+                <span>Product designer</span>
+              </div>
+              <div>
+                <strong>Timeline</strong>
+                <span>4 Months</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="case-cover case-cover--walmart">
+          <div class="case-cover-logo case-cover-logo--walmart">
+            <img src="https://www.figma.com/api/mcp/asset/65afc831-5b9a-488b-8208-2f13527b5ae6" alt="Walmart" />
+          </div>
+        </div>
+
+        <section class="case-band case-band--soft case-band--tail">
+          <div class="case-band-inner case-section">
+            <div class="case-grid">
+              <div class="case-grid-title">
+                <h2>The Problem</h2>
+              </div>
+              <div class="case-grid-body">
+                <p class="case-lead">
+                  Number of frauds involving chargebacks were increasing drastically, plus, the user didn't have a clear way of handling these kind of transactions in the platform.
+                </p>
+                <div>
+                  <p>Our goal with this project was to solve three problems that were identified during the discovery phase conducted by the product team:</p>
+                  <ul>
+                    <li>Implement the chargeback management functionality, so that sellers can easily handle these situations using Walmart’s own platform.</li>
+                    <li>Reduce the financial impact caused by frauds that exploited the lack of chargeback management on the platform.</li>
+                    <li>Generate revenue for the company through fees that would be charged for representing users in chargeback disputes.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="case-band case-band--tail">
+          <div class="case-band-inner case-section">
+            <div class="case-grid">
+              <div class="case-grid-title">
+                <h2>What are chargebacks, and how do they work in the Walmart ecosystem?</h2>
+              </div>
+              <div class="case-grid-body case-grid-body--loose">
+                <p>
+                  Chargebacks are refund requests made on credit card purchases, initiated by the card issuer on behalf of the customer and passed to the seller via the platform—here, Walmart. When a request is received, the seller is notified and can either accept it and issue a refund or dispute it.
+                </p>
+                <p>
+                  Before this project, sellers had no direct way to view or manage chargebacks on Walmart. All actions required contacting support via email, creating a slow and manual process.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="case-band case-band--soft case-band--tail">
+          <div class="case-band-inner case-section">
+            <div class="case-grid">
+              <div class="case-grid-title">
+                <h2>The Solution</h2>
+              </div>
+              <div class="case-grid-body case-grid-body--tight">
+                <p class="case-lead">A dedicated page for chargebacks and its related features.</p>
+                <p>
+                  We began with a competitive analysis to understand how existing platforms handle chargebacks and refunds. Rather than reinventing the wheel, our goal was to refine proven solutions, adapt them to Walmart’s model, and introduce meaningful differentiation.
+                </p>
+                <p>We focused on Amazon, eBay, and Shopify as key benchmarks.</p>
+                <p>After completing the competitive analysis and a few additional rounds of discussions between the teams, we reached the following outcome:</p>
+                <p>
+                  Chargebacks were given a dedicated page for two key reasons. First, as high-impact transactions, they need clear visibility for both the business and the user. Second, technical limitations on the main transactions page prevented a reliable chronological view—an essential requirement for tracking refunds effectively.
+                </p>
+                <div>
+                  <p>Each refund transaction displays its key information in the list and has a status associated with the stage of its lifecycle. The refund statuses are:</p>
+                  <p><strong>Pending action</strong>: Indicates a new refund that has been added to the list and still requires the user to take action.</p>
+                  <p><strong>Represented</strong>: Means that a dispute process has been initiated and the user is being represented by Walmart in that process.</p>
+                  <p><strong>Win</strong>: Indicates that the dispute process has been completed and the user won the case.</p>
+                  <p><strong>Loss</strong>: The opposite of “Win”; the dispute process has been completed and resulted in the seller losing the case.</p>
+                  <p><strong>Expired</strong>: In this case, the refund expired without any action from the user, resulting in the automatic loss of the funds.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="case-gallery" aria-label="Chargebacks UI screens">
+          <div class="case-shot" style="height: 693px">
+            <img src="https://www.figma.com/api/mcp/asset/99835ed5-a072-4fb4-8f1e-5dc277dacffc" alt="Chargebacks UI screen 1" />
+          </div>
+          <div class="case-shot" style="height: 693px">
+            <img src="https://www.figma.com/api/mcp/asset/cfa8d1af-ca87-47ad-877e-226047409cbe" alt="Chargebacks UI screen 2" />
+          </div>
+          <div class="case-shot" style="height: 693px">
+            <img src="https://www.figma.com/api/mcp/asset/b0522076-6d77-476e-b0fc-6744ff6abfce" alt="Chargebacks UI screen 3" />
+          </div>
+          <div class="case-shot" style="height: 693px">
+            <img src="https://www.figma.com/api/mcp/asset/03b025d4-b613-4386-9e14-0af98f9d7ba6" alt="Chargebacks UI screen 4" />
+          </div>
+          <div class="case-shot" style="height: 693px">
+            <img src="https://www.figma.com/api/mcp/asset/4aa2a42f-9f1f-4a6a-98ae-969c4b5b554d" alt="Chargebacks UI screen 5" />
+          </div>
+        </section>
+
+        <section class="case-results">
+          <div class="container case-section">
+            <h2>Measurable Change.</h2>
+            <p>Within the first months of the beta launch, we were able to identify an incredible adoption rate and a greatly reduced amount of frauds.</p>
+            <div class="result-grid">
+              <article>
+                <small>Amount of frauds in the platoform</small>
+                <h3>73% Less</h3>
+              </article>
+              <article>
+                <small>Increase in loss recovery</small>
+                <h3>60%</h3>
+              </article>
+              <article>
+                <small>Revenue increase</small>
+                <h3>+200k</h3>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="case-more container">
+          <div class="case-more-head">
+            <h2>More Projects</h2>
+            <a href="./portfolio.html">See all</a>
+          </div>
+          <div class="case-more-grid">
+            <article class="mini-project" tabindex="0">
+              <a class="mini-project-media" href="./payment-optimization.html">
+                <img src="https://www.figma.com/api/mcp/asset/e63e6b4e-e598-429c-b79e-8b5a653aed9a" alt="Payment process optimization" />
+              </a>
+              <div class="mini-project-text">
+                <h3>Payment process optimization</h3>
+                <p>Financial Services / Banco do Brasil</p>
+              </div>
+            </article>
+            <article class="mini-project" tabindex="0">
+              <a class="mini-project-media" href="./fnz-ams-hub.html">
+                <img src="https://www.figma.com/api/mcp/asset/11d3e22a-2ece-4ad9-9dff-cd2566e7cb5b" alt="FNZ AMS HUB" />
+              </a>
+              <div class="mini-project-text">
+                <h3>FNZ Investment HUB</h3>
+                <p>Financial Services / FNZ</p>
+              </div>
+            </article>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div>
+          <div class="logo">GN</div>
+          <p>© 2026 Guilherme Neves.</p>
+        </div>
+        <nav>
+          <a href="https://www.linkedin.com/in/guilherme-neves-b0b198147/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="mailto:gui.simoes.neves@gmail.com">Email</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="./chargebacks.js"></script>
+  </body>
+</html>
